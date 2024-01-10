@@ -1,5 +1,6 @@
 import random
 
+print("This game was made by Primananda Andhika. Enjoy!")
 user_choice = str(input("Choose between rock, paper, or scissor : ")).lower()
 choiches = ["rock", "paper", "scissor"]
 computer_choice = random.choice(choiches)
